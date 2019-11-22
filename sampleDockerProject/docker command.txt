@@ -1,0 +1,5 @@
+
+docker build -t helloworld -f ./Dockerfile .
+
+
+docker run -it --rm --name my-running-app helloworld
